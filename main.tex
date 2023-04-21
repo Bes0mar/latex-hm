@@ -1,0 +1,41 @@
+% Links for additional information
+% Info about packages: https://texdoc.org/index.html
+% Documentation: https://www.overleaf.com/learn
+% General Guid: https://www.learnlatex.org/de/
+
+\documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,DIV=12]{scrbook} % one-sided
+
+\input{settings}
+
+% commands to get general information
+\newcommand*{\getUniversity}{Hochschule München}
+\newcommand*{\getFaculty}{Fakultät für Informatik und Mathematik}
+\newcommand*{\getSubmissionLocation}{Munich}
+
+% TODO change after setup
+\newcommand*{\getTitle}{Beispiel Thema}
+\newcommand*{\getDoctype}{Hauptprojekt aus der Paulaner Spezi}
+\newcommand*{\getTitleDesc}{Beispiele zum Beispiel von Beispielen}
+\newcommand*{\getSupervisor}{Prof. Peter Musterprof}
+\newcommand*{\getAdvisor}{Prof. Maria Musterprof}
+\newcommand*{\getSubmissionDate}{01.01.2077}
+\newcommand*{\getAuthorA}{Max Mustermann}
+\newcommand*{\getAuthorB}{Erika Mustermann}
+
+
+\begin{document}
+	\selectlanguage{ngerman}
+	\pagenumbering{alph} % page numbering style
+	
+	% document structure	
+	\input{page/title}
+	
+	% TODO Inhaltsverzeichnis
+	% TODO bib
+	
+	\appendix{} % TODO Description
+	% TODO \printbibliography{} % TODO Description
+	% TODO \printglossary{} % TODO Description
+	\listoffigures{} % List of Figures (Images, Formulas etc.)
+	
+\end{document}

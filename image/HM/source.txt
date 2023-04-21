@@ -1,0 +1,5 @@
+logo.png
+https://w3-mediapool.hm.edu/mediapool/media/fk07/fk07_lokal/kontakt_4/sonstiges_1/HM_Logo_RGB_ContentBreit.png
+
+logo_text.png
+https://w3-mediapool.hm.edu/mediapool/media/fk14/fk14_lokal/startseite_1/aktuelles_10/wise_2020_21/HM_SchriftzugLogo_RGB.png
