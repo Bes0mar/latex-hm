@@ -27,15 +27,18 @@
 	\selectlanguage{ngerman}
 	\pagenumbering{alph} % page numbering style
 	
-	% document structure	
+	
+	\frontmatter{}	
 	\input{page/title}
+	\tableofcontents{}
 	
-	% TODO Inhaltsverzeichnis
-	% TODO bib
+	\mainmatter{}
+	\input{chapter/01_Example}
 	
-	\appendix{} % TODO Description
-	% TODO \printbibliography{} % TODO Description
-	% TODO \printglossary{} % TODO Description
-	\listoffigures{} % List of Figures (Images, Formulas etc.)
+	
+	\appendix{}
+	\printbibliography{}
+	%\printglossary{} % Uncomment if Glossary active in settings
+	\listoffigures{}
 	
 \end{document}

@@ -3,6 +3,35 @@
 % Documentation: https://www.overleaf.com/learn
 % General Guid: https://www.learnlatex.org/de/
 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx} % Image insertion
 \usepackage{setspace} % line spacing
 \usepackage[ngerman, english]{babel} % language (english is the same as american or USenglish)
+\usepackage[autostyle]{csquotes}
+\usepackage[hidelinks]{hyperref} % hidelinks removes colored boxes around references and links
+\usepackage{subfig} % for having figures side by side
+
+
+% Glossarie 
+% TODO uncomment to activate
+%\usepackage[acronym,xindy,toc]{glossaries}
+%\makeglossaries
+%\loadglsentries{pages/glossary.tex} % important update for glossaries, before document
+
+
+\usepackage{float} % Figure placement
+
+% Bibliography
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\addbibresource{bibliography.bib} % TODO remove examples in file
+
+
+% Code Blocks
+\usepackage{color}
+\usepackage{listings}
+
+% Supported Languages: https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings#Supported_languages
+\lstloadlanguages{% TODO add languages as needed
+	C++
+}
